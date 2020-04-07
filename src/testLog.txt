@@ -1,0 +1,19 @@
+hardest card
+add
+ask
+hardest card
+reset stats
+hardest card
+add
+ask
+hardest card
+ask
+hardest card
+ask
+hardest card
+ask
+hardest card
+ask
+hardest card
+export
+log
