@@ -152,9 +152,11 @@ fun log(scanner: Scanner, actionLog: ArrayList<String>) {
 /**
  * Prints the card(s) with the highest number of errors when asked.
  */
+@Suppress("unused")
 fun hardestCard(scanner: Scanner, cards: MutableList<Triple<String, String, Int>>) {
     val worstCards: MutableList<String> = mutableListOf()
     var currentWorstError: Int = 0
+    @Suppress("unused")
     for ((term, definition, numErrors) in cards) {
         if (numErrors > currentWorstError) {
             currentWorstError = numErrors
@@ -177,6 +179,7 @@ fun hardestCard(scanner: Scanner, cards: MutableList<Triple<String, String, Int>
 /**
  * Reset the error counters for each of the cards in [cards]
  */
+@Suppress("unused")
 fun resetStats(scanner: Scanner, cards: MutableList<Triple<String, String, Int>>) {
     cards.replaceAll { it.copy(third = 0) }
     println("Card statistics has been reset.")
