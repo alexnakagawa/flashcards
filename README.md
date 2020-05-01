@@ -12,5 +12,8 @@ This was a project I completed as part of the [JetBrains Academy](https://www.je
 3. Compile using Kotlin's [command line compiler](https://kotlinlang.org/docs/tutorials/command-line.html): `kotlinc flashcards.kt -d flashcards.jar`
 4. Run the application: `$ java -jar flashcards.jar`
 
+## Versions
+This program was tested on [JDK 8](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html), [Kotlin 1.3.70](https://blog.jetbrains.com/kotlin/2020/03/kotlin-1-3-70-released/?_ga=2.71639642.892768004.1588234421-1423448815.1573170531)
+
 ## LICENSE
 This project is distributed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to do with the code as you wish, with the proper license displayed.
